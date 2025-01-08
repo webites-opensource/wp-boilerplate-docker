@@ -4,6 +4,9 @@
 
 ### Docker 
 
+WordPress container from pre-built image.
+
+
 ``` bash
 docker-compose up --build --remove-orphans
 ```
@@ -15,3 +18,8 @@ If you don't change the default docker-compose.yaml file, you can access the dat
  - **Database name:** app_db
  - **Database user:** app_user
  - **Database password:** app_pass
+
+Image contains:
+- Wordpress
+- MySQL
+- Nginx
